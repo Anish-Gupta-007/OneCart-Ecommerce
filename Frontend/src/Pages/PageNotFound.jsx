@@ -1,0 +1,18 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+const PageNotFound = () => {
+  const navigate = useNavigate();
+  return (
+    <div className="w-[100vw] min-h-[100vh] bg-gradient-to-l from-[#141414] to-[#0c2025] flex items-center md:text-[70px] text-[30px] justify-center text-white flex-col gap-[20px]">
+      404 Page Not Found
+      <button
+        className="bg-[white] px-[20px] py-[10px] rounded-xl text-[18px] text-[black] cursor-pointer"
+        onClick={() => navigate("/login")}
+      >
+        Go to Login
+      </button>
+    </div>
+  );
+};
+
+export default PageNotFound;
