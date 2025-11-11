@@ -3,8 +3,8 @@ import { AuthDatacontext } from "../context/AuthCotext";
 import axios from "axios";
 import { use } from "react";
 import { UserDataContext } from "./UserContext";
-import { set } from "mongoose";
-import user from "../../../backend/models/userModel";
+// import { set } from "mongoose";
+// import user from "../../../backend/models/userModel";
 import { toast } from "react-toastify";
 
 export const ShopDataContext = createContext();
